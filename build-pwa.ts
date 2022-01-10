@@ -1,6 +1,9 @@
 /*
 
 TODO WORK IN PROGRESS THIS CODE DOESN'T BUILD
+
+*/
+
 import { VitePWA } from 'vite-plugin-pwa'
 import pwaConfigurationFactory from './pwaConfiguration'
 import {resolveConfig} from 'vite'
@@ -44,4 +47,3 @@ const buildPwa = async() => {
 }
 
 buildPwa()
-*/
